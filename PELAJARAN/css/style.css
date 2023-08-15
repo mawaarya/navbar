@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+}
+
+nav {
+    background-color: aqua;
+}
+
+.kolom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kolom ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.kolom ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.kolom ul li a:hover {
+    display: block;
+    color: green;
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.kolom ul li .dropdown {
+    display: none;
+}
+
+.kolom ul li:hover .dropdown {
+    display: block;
+    background-color: #000;
+    position: absolute;
+    padding: 10px;
+}
+
+.kolom ul li:hover .dropdown li {
+    display: block;
+}
+
+.arah {
+    justify-content: space-between;
+}
